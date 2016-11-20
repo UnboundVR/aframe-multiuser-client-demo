@@ -15,12 +15,12 @@ AFRAME.registerSystem('multiplayer', {
     entity.setAttribute('position', this.data.spawnPoint);
     entity.setAttribute('text', `text: ${user.id}`);
     entity.setAttribute('material', 'color: #880000');
-    entity.setAttribute('id', user.id);
+    entity.setAttribute('user-id', user.id);
 
     this._scene.appendChild(entity);
   },
   _removeUser(id) {
-    let user = document.querySelector(`#${id}`);
+    let user = document.querySelector(`[user-id='${id}']`);
     this._scene.removeChild(user);
   },
   init() {
