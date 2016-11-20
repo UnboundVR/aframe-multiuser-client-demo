@@ -3,11 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>metavrse.io demo</title>
-    <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+    <script src="static/bundle.js"></script>
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#880000"></a-box>
+      <a-entity rotation="0 0 0" position="-1 0.5 -3">
+        <a-box color="#880000"></a-box>
+        <a-entity position="-1 1 1" text="text: Sarasa" material="color: #880000"></a-entity>
+      </a-entity>
       <a-plane position="0 0 -4" rotation="-90 0 0" width="256" height="256" color="#555555"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
     </a-scene>
