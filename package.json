@@ -1,0 +1,22 @@
+{
+  "name": "metavrse-demo",
+  "version": "1.0.0",
+  "description": "Demo project using multiplayer-server in an a-frame scene",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo --live --verbose --port 1337 --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnboundVR/metavrse-demo.git"
+  },
+  "author": "gmaliandi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UnboundVR/metavrse-demo/issues"
+  },
+  "homepage": "https://github.com/UnboundVR/metavrse-demo#readme",
+  "devDependencies": {
+    "budo": "^9.2.2"
+  }
+}
