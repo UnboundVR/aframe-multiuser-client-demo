@@ -4,7 +4,12 @@
   "description": "Demo project using multiplayer-server in an a-frame scene",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.js:static/bundle.js --live --port 1337 -t babelify"
+    "start": "budo index.js:static/bundle.js --live --port 1337"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
   },
   "repository": {
     "type": "git",
