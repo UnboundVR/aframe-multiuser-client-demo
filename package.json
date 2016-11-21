@@ -37,7 +37,6 @@
   "dependencies": {
     "aframe": "^0.3.2",
     "aframe-text-component": "^0.3.0",
-    "deep-equal": "^1.0.1",
     "shallow-equals": "0.0.0",
     "socket.io-client": "^1.6.0"
   }
